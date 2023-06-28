@@ -1,0 +1,8 @@
+prefix=/home/fac/interbotix_ws/install
+
+Name: vis_serv
+Description: Description of vis_serv
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvis_serv
+Requires: roscpp rospy moveit_core moveit_ros_planning moveit_ros_planning_interface actionlib actionlib_msgs geometry_msgs
