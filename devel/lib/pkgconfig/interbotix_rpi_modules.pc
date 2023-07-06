@@ -1,8 +1,0 @@
-prefix=/home/fac/interbotix_ws/devel
-
-Name: interbotix_rpi_modules
-Description: Description of interbotix_rpi_modules
-Version: 0.0.0
-Cflags: -I/home/fac/interbotix_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime rospy std_msgs
